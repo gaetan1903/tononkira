@@ -50,7 +50,8 @@ class Tononkira:
                 break
             if val.string is None: 
                 continue
-            text.append(val.string)
+            
+            text.append(val.string.replace('tononkira.serasera.org',''))
         
         return head.text + '\n-------------\n\n' +  ' '.join(text).strip()
 
