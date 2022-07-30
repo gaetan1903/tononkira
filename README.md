@@ -1,2 +1,3 @@
 # tononkira
-A simple python wrapper for https://tononkira.serasera.org
+
+Unofficial Module and CLI tool to get Malagasy song lyrics from https://tononkira.serasera.org
