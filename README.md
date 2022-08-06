@@ -44,7 +44,7 @@ res = tononkira.search("Ambondrona")
 print(res[:2])
 
 # specific search by artist
-res = tononkira.search_by(artist="Ambondrona") 
+res = tononkira.search_by(artist="LJO") 
 print(res[:2])
 
 # specific search by title
@@ -70,11 +70,25 @@ print(res[:2])
 {'title': 'ALEO ALOHA', 'artist': 'AmbondronA', 'url': 'https://tononkira.serasera.org/hira/ambondrona/aleo-aloha'}
 ]
 ...
-[{'title': 'Donia', 'artist': 'Lion Hill', 'url': 'https://tononkira.serasera.org/hira/lion-hill/donia'}, {'title': 'RABODONIARIVO', 'artist': "Jonny R'afa", 'url': 'https://tononkira.serasera.org/hira/jonny-rafa/rabodoniarivo'}]
+[
+{'title': 'Aya', 'artist': 'LJo', 'url': 'https://tononkira.serasera.org/hira/ljo/aya'},
+{'title': 'Ino tianô ?', 'artist': 'LJo', 'url': 'https://tononkira.serasera.org/hira/ljo/ino-tian-'}
+]
 ...
-[{'title': '#586# [Feat. Mr Sayda]', 'artist': '306 BUK', 'url': 'https://tononkira.serasera.org/hira/306-buk/586-feat.-mr-sayda-1'}, {'title': "'Lay andro hodianao", 'artist': 'Mr Sayda (Misié Sayda)', 'url': 'https://tononkira.serasera.org/hira/mr-sayda-misi-sayda/lay-andro-hodianao'}]
+[
+{'title': 'Donia', 'artist': 'Lion Hill', 'url': 'https://tononkira.serasera.org/hira/lion-hill/donia'},
+{'title': 'RABODONIARIVO', 'artist': "Jonny R'afa", 'url': 'https://tononkira.serasera.org/hira/jonny-rafa/rabodoniarivo'}
+]
 ...
-[{'title': 'Ngoma', 'artist': 'Shyn', 'url': 'https://tononkira.serasera.org/hira/shyn-1/ngoma-1'}, {'title': 'Ngoma (feat Denise)', 'artist': 'Shyn', 'url': 'https://tononkira.serasera.org/hira/shyn-1/ngoma-feat-denise'}]
+[
+{'title': '#586# [Feat. Mr Sayda]', 'artist': '306 BUK', 'url': 'https://tononkira.serasera.org/hira/306-buk/586-feat.-mr-sayda-1'},
+{'title': "'Lay andro hodianao", 'artist': 'Mr Sayda (Misié Sayda)', 'url': 'https://tononkira.serasera.org/hira/mr-sayda-misi-sayda/lay-andro-hodianao'}
+]
+...
+[
+{'title': 'Ngoma', 'artist': 'Shyn', 'url': 'https://tononkira.serasera.org/hira/shyn-1/ngoma-1'}, 
+{'title': 'Ngoma (feat Denise)', 'artist': 'Shyn', 'url': 'https://tononkira.serasera.org/hira/shyn-1/ngoma-feat-denise'}
+]
 
 ```
 _________________________________________
