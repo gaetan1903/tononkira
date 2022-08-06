@@ -2,6 +2,13 @@
 
 Unofficial Module and CLI tool to get Malagasy song lyrics from https://tononkira.serasera.org
 
+<p>
+ <a href='https://pypi.org/project/tononkira/'> <img src='https://img.shields.io/pypi/v/tononkira?style=for-the-badge'/></a>
+ <a href='https://pypi.org/project/ampalibe/'> <img src='https://img.shields.io/pypi/dm/tononkira?label=DOWNLOADS&style=for-the-badge'/></a>
+ <a href='#'> <img src='https://img.shields.io/badge/Maintained-Yes-darkgreen?style=for-the-badge'/></a>
+ <a href='https://pypi.org/project/tononkira/'> <img src='https://img.shields.io/pypi/pyversions/tononkira?style=for-the-badge'/></a>
+</p>
+
 ## INSTALLATION
 
 ```s
