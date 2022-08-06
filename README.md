@@ -39,9 +39,28 @@ from tononkira import Tononkira
 
 tononkira = Tononkira()
 
+# global search
 res = tononkira.search("Ambondrona") 
 print(res[:2])
+
+# specific search by artist
+res = tononkira.search_by(artist="Ambondrona") 
+print(res[:2])
+
+# specific search by title
+res = tononkira.search_by(title="Donia") 
+print(res[:2])
+
+# specific search by lyrics
+res = tononkira.search_by(lyrics="tia anao aho") 
+print(res[:2])
+
+# specific search by title and lyrics
+res = tononkira.search_by(title="Ngoma", lyrics="Mena masoandro") 
+print(res[:2])
+
 ``` 
+
 
 > OUTPUT 
 
@@ -50,6 +69,13 @@ print(res[:2])
 {'title': 'Ajanony any', 'artist': 'AmbondronA', 'url': 'https://tononkira.serasera.org/hira/ambondrona/ajanony-any-1'},
 {'title': 'ALEO ALOHA', 'artist': 'AmbondronA', 'url': 'https://tononkira.serasera.org/hira/ambondrona/aleo-aloha'}
 ]
+...
+[{'title': 'Donia', 'artist': 'Lion Hill', 'url': 'https://tononkira.serasera.org/hira/lion-hill/donia'}, {'title': 'RABODONIARIVO', 'artist': "Jonny R'afa", 'url': 'https://tononkira.serasera.org/hira/jonny-rafa/rabodoniarivo'}]
+...
+[{'title': '#586# [Feat. Mr Sayda]', 'artist': '306 BUK', 'url': 'https://tononkira.serasera.org/hira/306-buk/586-feat.-mr-sayda-1'}, {'title': "'Lay andro hodianao", 'artist': 'Mr Sayda (Misié Sayda)', 'url': 'https://tononkira.serasera.org/hira/mr-sayda-misi-sayda/lay-andro-hodianao'}]
+...
+[{'title': 'Ngoma', 'artist': 'Shyn', 'url': 'https://tononkira.serasera.org/hira/shyn-1/ngoma-1'}, {'title': 'Ngoma (feat Denise)', 'artist': 'Shyn', 'url': 'https://tononkira.serasera.org/hira/shyn-1/ngoma-feat-denise'}]
+
 ```
 _________________________________________
 
