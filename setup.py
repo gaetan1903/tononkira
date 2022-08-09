@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="tononkira",                  # This is the name of the package
-    version='1.0.1',                      # The release version
+    version='1.1.0',                      # The release version
     author="iTeam-$",                         # Full name of the author
     description="Unofficial Module and CLI tool to get Malagasy song lyrics from https://tononkira.serasera.org",
     long_description=long_description,  # Long description read from the readme
